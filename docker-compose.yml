@@ -1,8 +1,6 @@
 services:
   reviews:
     build: .
-    image: ghcr.io/rungwarapon/bookinfo-reviews:dev
+    image: ghcr.io/jowkha/bookinfo-reviews:dev
     ports:
       - "8082:9080"
-    environment:
-      ENABLE_RATINGS: "true"
