@@ -30,7 +30,7 @@ docker-compose up
 # Build Ratings Service Docker Image
 docker-compose build
 
-export TOKEN=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
+export TOKEN=changename
 export GITHUB_USER=jowkha
 echo $TOKEN | docker login ghcr.io --password-stdin --username $GITHUB_USER
 docker push ghcr.io/jowkha/bookinfo-reviews:dev
